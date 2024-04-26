@@ -25,6 +25,11 @@ limitations under the License.
 
 ## Release Notes
 
+### v1.1.3
+
+- fixed a problem where the library did not come with ES2015 code
+  so require("ilib-tmx") would not work
+
 ### v1.1.2
 
 - converted all unit tests from nodeunit to jest
